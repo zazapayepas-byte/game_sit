@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>GameHub - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>GameHub</h1>
+    <p>Un mini-site statique consacré aux jeux vidéo</p>
+</header>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="jeux.html">Jeux populaires</a>
+    <a href="galerie.html">Galerie</a>
+    <a href="medias.html">Médias</a>
+    <a href="contact.html">Contact</a>
+    <a href="rgpd.html">RGPD</a>
+</nav>
+<main>
+
+<section class="card">
+    <h2>Contact (exemple)</h2>
+    <p>
+        Ce formulaire est purement illustratif : aucune donnée n'est réellement envoyée ou stockée. 
+        Il permet simplement de montrer comment on pourrait intégrer le consentement RGPD.
+    </p>
+    <form>
+        <p>
+            <label>Nom / Pseudo :
+                <input type="text" name="nom" placeholder="PlayerOne">
+            </label>
+        </p>
+        <p>
+            <label>Adresse e-mail :
+                <input type="email" name="email" placeholder="vous@example.com">
+            </label>
+        </p>
+        <p>
+            <label>Votre message :
+                <textarea name="message" rows="5" placeholder="Votre question ou suggestion..."></textarea>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" name="rgpd" checked>
+                Je consens au traitement de mes données dans le cadre de cette demande, conformément à la
+                <a href="rgpd.html">politique de confidentialité</a>.
+            </label>
+        </p>
+        <p>
+            <button type="submit" disabled>Envoyer (désactivé - site statique)</button><br>
+            <small>Le bouton est désactivé car ce site est un exemple purement local.</small>
+        </p>
+    </form>
+</section>
+
+</main>
+<footer>
+    &copy; 2025 - GameHub - Site statique HTML/CSS - Exercice pédagogique
+</footer>
+</body>
+</html>
